@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "timechanger",
+  "version": "${version}",
+  "name": "Time Changer",
+  "description": "Client size time changer for minecraft",
+  "authors": [
+    "Lucaslah"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Lucalah/TimeChanger/README.md",
+    "sources": "https://github.com/Lucalah/TimeChanger",
+    "issues": "https://github.com/Lucalah/TimeChanger/issues",
+    "email": "contact@cssudii.xyz",
+    "irc": "#timechanger"
+  },
+  "license": "GPL-3.0-only",
+  "icon": "assets/timechanger/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.lucaslah.timechanger.fabric.TimeChangerFabric"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": "",
+    "minecraft": "",
+    "java": ""
+  }
+}
